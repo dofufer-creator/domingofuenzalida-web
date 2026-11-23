@@ -4,6 +4,297 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Domingo Fuenzalida Fernández | Consultoría Ejecutiva, Gestión Pública y Clúster Minero</title>
+  <meta name="description" content="Sitio oficial de Domingo Fuenzalida Fernández. Consultor Ejecutivo, Profesor de Estado en Historia y Geografía y Cientista Social con más de 30 años de experiencia en gestión pública, desarrollo sectorial minero, innovación, sostenibilidad y mapeo cognitivo relacional." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Domingo Fuenzalida Fernández",
+    "url": "https://domingofuenzalida.cl",
+    "email": "mailto:dofer@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vitacura",
+      "addressRegion": "Región Metropolitana",
+      "addressCountry": "CL"
+    },
+    "jobTitle": "Consultor Ejecutivo y Especialista en Gestión Pública y Clúster Minero",
+    "knowsAbout": [
+      "Gestión Pública",
+      "Modernización del Estado",
+      "Clúster Minero",
+      "Innovación y Proveedores",
+      "Sostenibilidad y Valor Compartido",
+      "Desarrollo Organizacional",
+      "Mapas Cognitivos Relacionales"
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --azul-oscuro: #0b2545;
+      --azul-medio: #13315c;
+      --celeste: #1d6fa5;
+      --naranja: #d96b27;
+      --fondo: #f8fafc;
+      --texto: #1e293b;
+      --borde: #e2e8f0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--fondo);
+      color: var(--texto);
+      line-height: 1.65;
+    }
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    header {
+      background: var(--azul-oscuro);
+      color: #fff;
+      padding: 18px 0;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+    .nav-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .brand { font-weight: 700; letter-spacing: 0.4px; }
+    nav a {
+      color: #e2e8f0;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 0.95rem;
+    }
+    nav a:hover { color: #fff; text-decoration: underline; }
+
+    .hero {
+      background: linear-gradient(135deg, var(--azul-oscuro) 0%, var(--azul-medio) 100%);
+      color: #fff;
+      padding: 60px 0;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 0.9fr;
+      gap: 36px;
+      align-items: center;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.14);
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      margin-bottom: 16px;
+    }
+    .hero h1 { font-size: 2.2rem; line-height: 1.2; margin-bottom: 16px; }
+    .hero p { color: #e2e8f0; margin-bottom: 24px; }
+    .btn {
+      display: inline-block;
+      background: var(--naranja);
+      color: #fff;
+      padding: 12px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .btn:hover { opacity: 0.92; }
+
+    .foto-card {
+      background: #fff;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 12px 28px rgba(11, 37, 69, 0.16);
+      border: 1px solid var(--borde);
+    }
+    .foto-card img {
+      width: 100%;
+      height: 360px;
+      object-fit: cover;
+      object-position: center 20%;
+      display: block;
+    }
+    .foto-caption {
+      padding: 12px 16px;
+      font-size: 0.9rem;
+      color: #475569;
+      background: #fff;
+    }
+
+    section { padding: 60px 0; }
+    section h2 {
+      font-size: 1.7rem;
+      color: var(--azul-oscuro);
+      margin-bottom: 22px;
+    }
+    .perfil-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 32px;
+      align-items: center;
+    }
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid var(--borde);
+      border-radius: 12px;
+      padding: 22px;
+      box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+    }
+    .card h3 {
+      color: var(--azul-medio);
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+    .contacto-box {
+      margin-top: 20px;
+      padding: 18px;
+      background: #fff;
+      border-left: 4px solid var(--celeste);
+      border-radius: 8px;
+      border-top: 1px solid var(--borde);
+      border-right: 1px solid var(--borde);
+      border-bottom: 1px solid var(--borde);
+    }
+    .contacto-box p + p { margin-top: 6px; }
+
+    footer {
+      background: var(--azul-oscuro);
+      color: #cbd5e1;
+      padding: 24px 0;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 860px) {
+      .hero-grid, .perfil-grid, .cards-grid { grid-template-columns: 1fr; }
+      .foto-card img { height: 300px; }
+      nav { margin-top: 8px; }
+      nav a { margin-left: 0; margin-right: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav-wrap">
+      <div class="brand">DOMINGO FUENZALIDA FERNÁNDEZ</div>
+      <nav>
+        <a href="#perfil">Perfil</a>
+        <a href="#trayectoria">Trayectoria</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="badge">Consultoría Ejecutiva · Gestión Pública · Clúster Minero</span>
+        <h1>Estrategia, articulación institucional y liderazgo con impacto real</h1>
+        <p>
+          Profesor de Estado en Historia y Geografía, Cientista Social y Consultor Ejecutivo con más de 30 años
+          de trayectoria en gestión pública, desarrollo sectorial minero, sostenibilidad y formación directiva en Chile.
+        </p>
+        <a class="btn" href="#contacto">Coordinar conversación</a>
+      </div>
+
+      <div class="foto-card">
+        <img
+          src="Domingo%20Fuenzalida%20Fernandez%201%20foto.jpeg"
+          alt="Retrato de Domingo Fuenzalida Fernández en su espacio de trabajo con tenida casual"
+        />
+        <div class="foto-caption">Domingo Fuenzalida Fernández · Consultoría y Gestión Estratégica</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="perfil">
+    <div class="container perfil-grid">
+      <div class="foto-card">
+        <img
+          src="Domingo%20Fuenzalida%20Fernandez%202%20foto.jpeg"
+          alt="Domingo Fuenzalida Fernández trabajando en escritorio con computador portátil y notas"
+        />
+        <div class="foto-caption">Análisis, planificación y relatoría ejecutiva desde Santiago</div>
+      </div>
+
+      <div>
+        <h2>Perfil y Enfoque de Trabajo</h2>
+        <p>
+          Acompaño a instituciones públicas, gremios, empresas y equipos directivos en procesos de modernización,
+          articulación territorial, desarrollo de proveedores, sostenibilidad, liderazgo y gobernanza relacional.
+        </p>
+        <p style="margin-top: 12px;">
+          Mi enfoque integra análisis estratégico, articulación público-privada y herramientas de diagnóstico como los
+          Mapas Cognitivos Relacionales para fortalecer la toma de decisiones y el desempeño organizacional.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="trayectoria" style="background: #ffffff; border-top: 1px solid var(--borde); border-bottom: 1px solid var(--borde);">
+    <div class="container">
+      <h2>Hitos Institucionales y Trayectoria</h2>
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Clúster Minero e Innovación</h3>
+          <p>
+            Encargado Nacional del Clúster Minero (Ministerio de Minería / CORFO, 2015–2018): articulación
+            público-privada, acuerdos territoriales en regiones mineras, desarrollo de proveedores y coordinación en la
+            Hoja de Ruta Tecnológica de la Minería.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Gestión Pública y Dirección</h3>
+          <p>
+            Dirección General del Crédito Prendario (DICREP): conducción de equipos multidisciplinarios, mejora de
+            procesos y fortalecimiento del clima organizacional, alcanzando el 4° lugar nacional entre 188 servicios
+            públicos evaluados.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Consultoría y Relatoría Ejecutiva</h3>
+          <p>
+            Formación directiva, probidad, liderazgo organizacional, desarrollo estratégico y aplicación de Mapas
+            Cognitivos Relacionales para equipos ejecutivos e instituciones.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="especialidades">
+    <div class="container">
+      <h2>Áreas de Especialización</h2>
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Gestión Pública y Modernización</h3>
+          <p>Diseño institucional, gestión por resultados, probidad, coordinación interinstitucional y liderazgo de equipos.</p>
+        </article>
+
+        <article class="card">
+          <h3>Sector Minero y Sostenibilidad</h3>
+          <p>Ecosistemas de innovación, encadenamientos<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Domingo Fuenzalida Fernández | Consultoría Ejecutiva, Gestión Pública y Clúster Minero</title>
   <meta name="description" content="Sitio oficial de Domingo Fuenzalida Fernández. Consultoría ejecutiva, gestión pública, desarrollo de clúster minero, innovación, sostenibilidad y mapeo cognitivo relacional." />
   <style>
     :root {
